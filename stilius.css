@@ -27,6 +27,7 @@ p {
     align-items: center;
     background-image: url('stone.jpg'); /* Replace 'example.jpg' with the path to your image */
     background-repeat: repeat;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .box1 {
