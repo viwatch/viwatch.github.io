@@ -29,7 +29,7 @@ p {
 }
 
 .title {
-    font-size: 8.2em;
+    font-size: 6.2em;
     color: #0E232E; /* Title color */
     position: relative; /* Position relative for absolute positioning */
 }
