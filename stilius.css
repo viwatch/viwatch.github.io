@@ -20,9 +20,24 @@ p {
     align-items: center;
 }
 
+.box1 {
+    height: 100vh; /* Height equal to 100% of viewport height */
+    background-color: #0E232E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .title {
     font-size: 4.2em;
-    color: black; /* Title color */
+    color: #0E232E; /* Title color */
+    position: relative; /* Position relative for absolute positioning */
+}
+
+
+.text1 {
+    font-size: 4.2em;
+    color: #FFFFFF; /* Title color */
     position: relative; /* Position relative for absolute positioning */
 }
 
