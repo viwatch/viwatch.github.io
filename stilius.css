@@ -1,3 +1,8 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
 /* CSS styles */
 body {
     font-family: Arial, sans-serif;
@@ -16,7 +21,7 @@ p {
 
 .header {
     height: 100vh; /* Height equal to 100% of viewport height */
-    background-color: #FFFFFF;
+/*     background-color: #FFFFFF; */
     display: flex;
     justify-content: center;
     align-items: center;
