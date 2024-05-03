@@ -41,10 +41,10 @@ p {
 }
 
 .title {
-    font-size: 6.5em;
+    font-size: 6em;
     color: #FFFFFF; /* Title color */
     position: relative; /* Position relative for absolute positioning */
-    text-shadow: 6px 6px 12px rgba(0, 0, 0, 2.5); /* Adjust the values as needed */
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 3.5); /* Adjust the values as needed */
 }
 
 
