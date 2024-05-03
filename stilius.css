@@ -2,6 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -32,8 +34,9 @@ p {
 
 .title {
     font-size: 6.2em;
-    color: #0E232E; /* Title color */
+    color: #FFFFFF; /* Title color */
     position: relative; /* Position relative for absolute positioning */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
 }
 
 
