@@ -18,6 +18,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('stone.jpg'); /* Replace 'example.jpg' with the path to your image */
+    background-repeat: repeat;
 }
 
 .box1 {
