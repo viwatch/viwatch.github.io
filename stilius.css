@@ -24,7 +24,13 @@ p {
     color: "#FD6000";
     font-size: 2em;
     text-shadow: 0 0 10px #FF0000, 0 0 20px #FF7F00, 0 0 30px #FFFF00, 0 0 40px #00FF00, 0 0 50px #0000FF, 0 0 60px #4B0082, 0 0 70px #8B00FF; /* Apply rainbow shadow */
-    animation: rainbow-shadow 0.5s infinite;
+/*     animation: rainbow-shadow 0.5s infinite; */
+    animation: rotate-rainbow-shadow 1s linear infinite;
+}
+
+@keyframes rotate-rainbow-shadow {
+    0% { text-shadow: 0 0 10px #FF0000, 0 0 20px #FF7F00, 0 0 30px #FFFF00, 0 0 40px #00FF00, 0 0 50px #0000FF, 0 0 60px #4B0082, 0 0 70px #8B00FF; transform: rotate(0deg); }
+    100% { text-shadow: 0 0 20px #FF0000, 0 0 40px #FF7F00, 0 0 60px #FFFF00, 0 0 80px #00FF00, 0 0 100px #0000FF, 0 0 120px #4B0082, 0 0 140px #8B00FF; transform: rotate(360deg); }
 }
 
 @keyframes rainbow-shadow {
