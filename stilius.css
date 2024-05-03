@@ -28,8 +28,8 @@ p {
     background-repeat: repeat;
 }
 
-.header:before {
-    background: rgba(0, 0, 0, 0.5);
+.header:after {
+    background: rgba(0, 0, 0, 0.9);
 }
 
 .box1 {
