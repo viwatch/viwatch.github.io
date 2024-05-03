@@ -21,7 +21,7 @@ p {
 }
 
 .title {
-    font-size: 2em;
+    font-size: 4.2em;
     color: black; /* Title color */
     position: relative; /* Position relative for absolute positioning */
 }
