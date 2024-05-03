@@ -14,7 +14,7 @@ p {
 
 .header {
     height: 100vh; /* Height equal to 100% of viewport height */
-    background-color: white;
+    background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,8 +23,7 @@ p {
 .title {
     color: "#FD6000";
     font-size: 2em;
-    text-shadow: 0 0 10px #FF0000, 0 0 20px #FF7F00, 0 0 30px #FFFF00, 0 0 40px #00FF00, 0 0 50px #0000FF, 0 0 60px #4B0082, 0 0 70px #8B00FF; /* Apply rainbow shadow */
-/*     animation: rainbow-shadow 0.5s infinite; */
+    text-shadow: 0 0 10px #FF0000, 0 0 20px #FF7F00, 0 0 30px #FFFF00, 0 0 40px #00FF00, 0 0 50px #0000FF, 0 0 60px #4B0082, 0 0 70px #8B00FF;
     animation: rotate-rainbow-shadow 1s linear infinite;
 }
 
@@ -33,7 +32,3 @@ p {
     100% { text-shadow: 0 0 20px #FF0000, 0 0 40px #FF7F00, 0 0 60px #FFFF00, 0 0 80px #00FF00, 0 0 100px #0000FF, 0 0 120px #4B0082, 0 0 140px #8B00FF; transform: rotate(360deg); }
 }
 
-@keyframes rainbow-shadow {
-    0% { box-shadow: 0 0 10px #FF0000, 0 0 20px #FF7F00, 0 0 30px #FFFF00, 0 0 40px #00FF00, 0 0 50px #0000FF, 0 0 60px #4B0082, 0 0 70px #8B00FF; }
-    100% { box-shadow: 0 0 20px #FF0000, 0 0 40px #FF7F00, 0 0 60px #FFFF00, 0 0 80px #00FF00, 0 0 100px #0000FF, 0 0 120px #4B0082, 0 0 140px #8B00FF; }
-}
