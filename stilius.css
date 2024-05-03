@@ -12,6 +12,15 @@ p {
     color: green;
 }
 
-header {
-    height: "100px";
+.header {
+    height: 100vh; /* Height equal to 100% of viewport height */
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: "#FD6000";
+    font-size: 2em;
 }
