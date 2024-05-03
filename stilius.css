@@ -14,7 +14,7 @@ p {
 
 .header {
     height: 100vh; /* Height equal to 100% of viewport height */
-    background-color: lightblue;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ p {
 .title {
     color: "#FD6000";
     font-size: 2em;
-    animation: rainbow-shadow 2s infinite;
+    animation: rainbow-shadow 0.5s infinite;
 }
 
 @keyframes rainbow-shadow {
