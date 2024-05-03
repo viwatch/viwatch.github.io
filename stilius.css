@@ -21,12 +21,14 @@ p {
 
 .header {
     height: 100vh; /* Height equal to 100% of viewport height */
-/*     background-color: #FFFFFF; */
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url('stone.jpg'); /* Replace 'example.jpg' with the path to your image */
     background-repeat: repeat;
+}
+
+.header:before {
     background: rgba(0, 0, 0, 0.5);
 }
 
