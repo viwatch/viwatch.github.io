@@ -14,7 +14,7 @@ p {
 
 .header {
     height: 100vh; /* Height equal to 100% of viewport height */
-    background-color: #000000;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ p {
     color: "#FD6000";
     font-size: 2em;
     text-shadow: 0 0 10px #FF0000, 0 0 20px #FF7F00, 0 0 30px #FFFF00, 0 0 40px #00FF00, 0 0 50px #0000FF, 0 0 60px #4B0082, 0 0 70px #8B00FF;
-    animation: rotate-rainbow-shadow 1s linear infinite;
+    animation: rotate-rainbow-shadow 3s linear infinite;
 }
 
 @keyframes rotate-rainbow-shadow {
