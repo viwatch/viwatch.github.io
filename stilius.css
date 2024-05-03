@@ -21,14 +21,25 @@ p {
 }
 
 .title {
-    color: "white";
-    font-size: 8em;
-    text-shadow: 0 0 10px #FF0000, 0 0 20px #FF7F00, 0 0 30px #FFFF00, 0 0 40px #00FF00, 0 0 50px #0000FF, 0 0 60px #4B0082, 0 0 70px #8B00FF;
-    animation: rotate-rainbow-shadow 3s linear infinite;
+    font-size: 2em;
+    color: black; /* Title color */
+    position: relative; /* Position relative for absolute positioning */
+}
+
+.title::before {
+    content: attr(data-title); /* Display content from data-title attribute */
+    position: absolute; /* Position absolute to position the pseudo-element */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place behind the actual text */
+    font-size: 2em;
+    color: transparent; /* Make text transparent */
+    text-shadow: 0 0 10px #FF0000, 0 0 20px #FF7F00, 0 0 30px #FFFF00, 0 0 40px #00FF00, 0 0 50px #0000FF, 0 0 60px #4B0082, 0 0 70px #8B00FF; /* Apply rainbow shadow */
+    animation: rotate-rainbow-shadow 10s linear infinite; /* Animation for rotating rainbow shadow */
 }
 
 @keyframes rotate-rainbow-shadow {
-    0% { text-shadow: 0 0 10px #FF0000, 0 0 20px #FF7F00, 0 0 30px #FFFF00, 0 0 40px #00FF00, 0 0 50px #0000FF, 0 0 60px #4B0082, 0 0 70px #8B00FF; transform: rotate(0deg); }
-    100% { text-shadow: 0 0 20px #FF0000, 0 0 40px #FF7F00, 0 0 60px #FFFF00, 0 0 80px #00FF00, 0 0 100px #0000FF, 0 0 120px #4B0082, 0 0 140px #8B00FF; transform: rotate(360deg); }
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
