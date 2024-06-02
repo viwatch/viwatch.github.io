@@ -11,6 +11,16 @@ body {
     padding: 0;
 }
 
+.deze {
+    margin: 0;
+    padding: 0;
+    border: 2px solid red;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
 h1 {
     color: blue;
 }
